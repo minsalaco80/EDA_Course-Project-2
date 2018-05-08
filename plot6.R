@@ -1,5 +1,6 @@
-##6Compare emissions from motor vehicle sources in Baltimore City with emissions from motor vehicle sources in Los Angeles County, 
-California (fips == "06037"). Which city has seen greater changes over time in motor vehicle emissions?##
+##Question 6: Compare emissions from motor vehicle sources in Baltimore City with emissions from motor vehicle sources in Los Angeles County, California (fips == "06037"). Which city has seen greater changes over time in motor vehicle emissions?## 
+
+##Answer 6:  Baltimore City has seen the greater chane over time in motor vehicle emissions.##
 
 unzip("exdata%2Fdata%2FNEI_data (1).zip")
 NEI <- readRDS("summarySCC_PM25.rds")
