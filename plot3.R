@@ -1,6 +1,10 @@
-##3 Of the four types of sources indicated by the type (point, nonpoint, onroad, nonroad) variable, which of these four sources have seen decreases in 
-emissions from 1999–2008 for Baltimore City? Which have seen increases in emissions from 1999–2008? Use the ggplot2 plotting system to make a plot answer 
-this question.##
+##Question 3 Of the four types of sources indicated by the type (point, nonpoint, onroad, nonroad) variable, which of these four sources have seen decreases in emissions from 1999â€“2008 for Baltimore City? Which have seen increases in emissions from 1999â€“2008? Use the ggplot2 plotting system to make a plot answer this question.## 
+
+##Answer 3: Of the four types of sources indicated nonpoint, onroad, and nonroad have seen decreases.  Of the four types of sources indicated point has seen an increase.##
+ 
+
+
+
 
 unzip("exdata%2Fdata%2FNEI_data (1).zip")
 NEI <- readRDS("summarySCC_PM25.rds")
