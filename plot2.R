@@ -2,6 +2,8 @@
 Maryland (fips == "24510") from 1999 to 2008? Use the base plotting system to 
 make a plot answering this question.##
 
+##Answer 2:  There is an overrall decrease in the Baltimore City, Maryland PM2.5 emissions.##
+
 unzip("exdata%2Fdata%2FNEI_data (1).zip")
 NEI <- readRDS("summarySCC_PM25.rds")
 SCC <- readRDS("Source_Classification_Code.rds")
