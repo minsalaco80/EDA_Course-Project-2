@@ -3,9 +3,6 @@
 ##Answer 3: Of the four types of sources indicated nonpoint, onroad, and nonroad have seen decreases.  Of the four types of sources indicated point has seen an increase.##
  
 
-
-
-
 unzip("exdata%2Fdata%2FNEI_data (1).zip")
 NEI <- readRDS("summarySCC_PM25.rds")
 SCC <- readRDS("Source_Classification_Code.rds")
