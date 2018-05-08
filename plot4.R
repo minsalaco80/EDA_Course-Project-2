@@ -1,4 +1,4 @@
-##Question4: Across the United States, how have emissions from coal combustion-related sources changed from 1999–2008?## 
+##Question 4: Across the United States, how have emissions from coal combustion-related sources changed from 1999–2008?## 
 ##Answer 4:  Across the United States emissions from coal combustion-related sources have shown an overall decrease.##
 
 unzip("exdata%2Fdata%2FNEI_data (1).zip")
