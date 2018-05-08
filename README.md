@@ -1,4 +1,4 @@
-# EDA_Course##Question 1##Have total emissions from PM2.5 decreased in the United States from 1999 to 2008? Using the base plotting system, make a plot showing the total PM2.5 emission from all sources for each of the years 1999, 2002, 2005, and 2008?##
+##Question 1##
 
 unzip("exdata%2Fdata%2FNEI_data (1).zip")
 NEI <- readRDS("summarySCC_PM25.rds")
@@ -13,4 +13,4 @@ plot(PMTotals$year,(PMTotals$Emissions)/10^6, "b", pch = 16,
                    )
 axis(side=1, at=seq(1999, 2008, by=3))
 axis(side=2, at=seq(3, 8, by=1))
-dev.off()-Project-2
+dev.off()
