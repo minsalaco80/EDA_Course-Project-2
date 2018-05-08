@@ -1,4 +1,5 @@
-##5 How have emissions from motor vehicle sources changed from 1999–2008 in Baltimore City?##
+##Question 5 How have emissions from motor vehicle sources changed from 1999â€“2008 in Baltimore City?## 
+##Answer 5: Emissions from motor vehicle sources have seen an overrall decrease##
 
 unzip("exdata%2Fdata%2FNEI_data (1).zip")
 NEI <- readRDS("summarySCC_PM25.rds")
